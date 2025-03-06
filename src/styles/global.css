@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@theme {
+    --color-cream: #f2ede2;
+    --color-pumpkin: #ff682c;
+    --color-obsidian: #1f1f1f;
+}
