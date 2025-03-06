@@ -9,9 +9,11 @@ import WhatsappIcon from "../components/icons/WhatsappIcon.astro";
 	<section class="h-dvh w-dvw">
 		<Header />
 		<main
-			class="flex flex-col justify-center items-center gap-8 border-x mx-10 h-[95%]"
+			class="flex flex-col justify-center items-center gap-8 border-x mx-10 h-dvh"
 		>
-			<h1 class="md:text-7xl text-4xl font-medium text-center w-[12ch]">
+			<h1
+				class="md:text-7xl text-4xl font-medium text-center w-[12ch] -mt-20"
+			>
 				La forma
 				<span class="text-pumpkin">segura</span>
 				de conseguir tus
@@ -31,5 +33,22 @@ import WhatsappIcon from "../components/icons/WhatsappIcon.astro";
 			</button>
 		</main>
 	</section>
-	<div class="py-5 border-y mt-7.5"></div>
+	<div class="py-5 border-y mt-15"></div>
+	<section class="h-dvh mx-10 border-x px-10 items-center">
+		<h1 class="text-5xl text-center font-semibold py-10">Macbook Pro</h1>
+		<section class="flex justify-center items-center flex-col sm:flex-row">
+			<div class="sm:px-0 px-10 max-w-lg sm:min-w-2xs md:min-w-sm">
+				<img src="../../public/hero3.png" alt="" />
+			</div>
+			<p class="text-pretty sm:text-lg">
+				La <span class="text-pumpkin">MacBook</span> es la laptop más popular
+				del mundo por una razón. Ofrece hasta una duración excepcional de
+				la batería. Su diseño elegante y portátil está disponible en una
+				variedad de colores que se adaptan a tu estilo. Con un <span
+					class="text-pumpkin">MacBook</span
+				>, siempre estarás listo para llevar tus ideas más allá, sin
+				importar dónde estés.
+			</p>
+		</section>
+	</section>
 </Layout>
