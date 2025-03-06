@@ -4,19 +4,22 @@ import InstagramIcon from "./icons/InstagramIcon.astro";
 import WhatsappIcon from "./icons/WhatsappIcon.astro";
 ---
 
-<header class="flex justify-between py-4 px-2">
-    <div>
+<header>
+    <a href="/">
         <Logo />
-    </div>
+    </a>
     <div class="flex items-center gap-9">
-        <a class="" href="">
-            <InstagramIcon class="w-7 h-7 fill-pumpkin" />
-        </a>
-        <a href="">
-            <WhatsappIcon class="w-9 h-9 fill-pumpkin" />
-        </a>
-        <button class="bg-pumpkin text-cream px-5 py-2 rounded-full"
-            >Comprar
+        <section class="md:flex items-center gap-4 hidden">
+            <a class="" href="">
+                <InstagramIcon class="w-7 h-7 fill-pumpkin" />
+            </a>
+            <a href="">
+                <WhatsappIcon class="w-9 h-9 fill-pumpkin" />
+            </a>
+        </section>
+
+        <button class="bg-pumpkin text-cream px-5 py-2 rounded-full">
+            Comprar
         </button>
     </div>
 </header>

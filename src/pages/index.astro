@@ -1,8 +1,35 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
+import InstagramIcon from "../components/icons/InstagramIcon.astro";
+import WhatsappIcon from "../components/icons/WhatsappIcon.astro";
 ---
 
 <Layout>
-	<Header />
+	<section class="h-dvh w-dvw">
+		<Header />
+		<main
+			class="flex flex-col justify-center items-center gap-8 border-x mx-10 h-[90%]"
+		>
+			<h1 class="md:text-7xl text-4xl font-medium text-center w-[12ch]">
+				La forma
+				<span class="text-pumpkin">segura</span>
+				de conseguir tus
+				<span class="text-pumpkin">Mac's</span>
+			</h1>
+			<section class="flex items-center gap-5 md:hidden">
+				<a href="">
+					<InstagramIcon class="w-7 h-7 fill-pumpkin" />
+				</a>
+				<a href="">
+					<WhatsappIcon class="w-9 h-9 fill-pumpkin" />
+				</a>
+			</section>
+			<button
+				class="cursor-pointer bg-pumpkin text-cream px-5 py-2 rounded-full"
+				>Consigue la tuya ahora
+			</button>
+		</main>
+	</section>
+	<div class="py-7 border-y mt-2"></div>
 </Layout>
