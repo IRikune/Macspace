@@ -28,27 +28,82 @@ import WhatsappIcon from "../components/icons/WhatsappIcon.astro";
 				</a>
 			</section>
 			<button
-				class="cursor-pointer bg-pumpkin text-cream px-5 py-2 rounded-full"
+				class="cursor-pointer border-obsidian border bg-pumpkin text-cream px-5 py-2 rounded-full"
 				>Consigue la tuya ahora
 			</button>
 		</main>
 	</section>
-	<div class="py-5 border-y mt-15"></div>
-	<section class="h-dvh mx-10 border-x px-10 items-center">
-		<h1 class="text-5xl text-center font-semibold py-10">Macbook Pro</h1>
-		<section class="flex justify-center items-center flex-col sm:flex-row">
-			<div class="sm:px-0 px-10 max-w-lg sm:min-w-2xs md:min-w-sm">
+	<div class="py-5 border-y mt-15.5"></div>
+	<section class="mx-10 pb-5 border-x px-10 items-center">
+		<section
+			class="flex justify-center items-center flex-col sm:flex-row lg:px-25"
+		>
+			<div class="sm:px-0 px-10 min-w-xs md:min-w-sm">
 				<img src="../../public/hero3.png" alt="" />
 			</div>
-			<p class="text-pretty sm:text-lg">
-				La <span class="text-pumpkin">MacBook</span> es la laptop más popular
-				del mundo por una razón. Ofrece hasta una duración excepcional de
-				la batería. Su diseño elegante y portátil está disponible en una
-				variedad de colores que se adaptan a tu estilo. Con un <span
-					class="text-pumpkin">MacBook</span
-				>, siempre estarás listo para llevar tus ideas más allá, sin
-				importar dónde estés.
-			</p>
+			<div>
+				<h1 class="text-4xl text-center font-semibold py-5">
+					Macbook <span class="text-pumpkin"> Pro</span>
+				</h1>
+				<p
+					class="text-center text-lg md:text-pretty lg:text-2xl text-obsidian font-medium"
+				>
+					La <span class="text-pumpkin">MacBook</span> es la laptop más
+					popular del mundo por una razón. Ofrece hasta una duración excepcional
+					de la batería. Su diseño elegante y portátil está disponible
+					en una variedad de colores que se adaptan a tu estilo.
+				</p>
+			</div>
 		</section>
+	</section>
+	<div class="py-2 border-y">
+		<h1 class="text-3xl md:text-4xl font-bold text-obsidian text-center">
+			Modelos <span class="text-pumpkin">Pro</span> Retina
+		</h1>
+	</div>
+	<section
+		class="mx-10 h-[200dvh] border-x md:px-0 items-center relative overflow-hidden"
+	>
+		<section class="flex flex-col items-end">
+			<div
+				class="w-[90%] lg:w-[30%] h-[33dvw] lg:h-auto relative flex items-center justify-center"
+			>
+				<img
+					class="rotate-180 w-full absolute"
+					src="../../public/shapeBG.webp"
+					alt=""
+				/>
+				<h2 class="text-6xl font-bold text-center lg:text-8xl lg:mt-5">
+					2013
+				</h2>
+			</div>
+			<div
+				class="flex items-center md:flex-row flex-col-reverse pt-[2dvw]"
+			>
+				<div>
+					<h1
+						class="text-center text-2xl lg:text-5xl font-bold pt-5 pb-3 lg:pb-5"
+					>
+						Hecha para <span class="text-pumpkin">multitarea</span>
+					</h1>
+					<p
+						class="text-center text-lg md:text-pretty lg:text-2xl text-obsidian font-medium px-5"
+					>
+						La <span class="text-pumpkin">MacBook</span> es un portatil
+						excepcional para la multitarea, ofrece todo lo necesario
+						para una experiencia de estudio o trabajo útil, y eficaz.
+						la batería. Su diseño elegante y portátil está disponible
+						en una variedad de colores que se adaptan a tu estilo.
+					</p>
+				</div>
+
+				<div class="mt-5 md:min-w-[50dvw] self-end">
+					<img src="../../public/macbookborderless.webp" alt="" />
+				</div>
+			</div>
+		</section>
+		<div>
+			<h1></h1>
+		</div>
 	</section>
 </Layout>
