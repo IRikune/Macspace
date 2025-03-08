@@ -54,7 +54,9 @@ import Button from "../components/Button.astro";
 					de la batería. Su diseño elegante y portátil está disponible
 					en una variedad de colores que se adaptan a tu estilo.
 				</p>
-				<Button class="my-3"> Consigue la tuya ahora </Button>
+				<Button class="my-3 mx-auto block">
+					Consigue la tuya ahora
+				</Button>
 			</div>
 		</section>
 	</section>
@@ -64,18 +66,20 @@ import Button from "../components/Button.astro";
 		</h1>
 	</div>
 	<section
-		class="mx-10 h-[200dvh] border-x md:px-0 items-center relative overflow-hidden"
+		class="mx-10 h-[400dvh] border-x md:px-0 items-center relative overflow-hidden"
 	>
-		<section class="flex flex-col items-end">
+		<section class="flex flex-col items-end border-b py-5">
 			<div
 				class="w-[90%] lg:w-[30%] h-[33dvw] lg:h-auto relative flex items-center justify-center"
 			>
 				<img
-					class="rotate-180 w-full absolute"
+					class="rotate-180 w-full absolute -mt-10"
 					src="../../public/shapeBG.webp"
 					alt=""
 				/>
-				<h2 class="text-6xl font-bold text-center lg:text-8xl lg:mt-5">
+				<h2
+					class="text-6xl font-bold -mt-10 text-center lg:text-8xl lg:mt-5"
+				>
 					2013
 				</h2>
 			</div>
@@ -107,8 +111,46 @@ import Button from "../components/Button.astro";
 				</div>
 			</div>
 		</section>
-		<div>
-			<h1></h1>
-		</div>
+		<section class="border-b pb-5">
+			<div
+				class="w-[90%] lg:w-[30%] h-[33dvw] lg:h-auto relative flex items-center justify-center"
+			>
+				<img
+					class="absolute top-0 w-full rotate-x-180"
+					src="../../public/shapeBG.webp"
+					alt=""
+				/>
+				<h2 class="text-6xl font-bold text-center lg:text-8xl lg:mt-8">
+					2015
+				</h2>
+			</div>
+			<div
+				class="flex items-center md:flex-row flex-col lg:pt-[5dvw] pt-[10dvw]"
+			>
+				<div class="md:min-w-[50dvw] self-end">
+					<img src="../../public/netflix.png" alt="" />
+				</div>
+				<div class="flex items-center flex-col">
+					<h1
+						class="text-center text-2xl lg:text-4xl font-bold pb-3 lg:pb-5 pt-5"
+					>
+						Perfecta <span class="text-pumpkin">Retina</span> para contenido
+						<span class="text-pumpkin">audiovisual</span>
+					</h1>
+					<p
+						class="text-center text-lg md:text-balance lg:text-2xl text-obsidian font-medium px-5"
+					>
+						Con <span class="text-pumpkin">Retina</span> Cada detalle
+						cobra vida gracias a su resolución espectacular y colores
+						vibrantes que desafían lo real. Con millones de píxeles y
+						tecnología de precisión, textos, imágenes y videos se muestran
+						con una claridad cristalina, incluso bajo la luz más intensa.
+					</p>
+					<Button class="mx-auto block lg:self-center my-5">
+						Comprar ahora
+					</Button>
+				</div>
+			</div>
+		</section>
 	</section>
 </Layout>
