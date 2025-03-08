@@ -3,9 +3,13 @@ import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import InstagramIcon from "../components/icons/InstagramIcon.astro";
 import WhatsappIcon from "../components/icons/WhatsappIcon.astro";
+import Button from "../components/Button.astro";
 ---
 
 <Layout>
+	<Button class="fixed bottom-10 right-10 z-50">
+		Consigue la tuya ahora
+	</Button>
 	<section class="h-dvh w-dvw">
 		<Header />
 		<main
@@ -27,10 +31,7 @@ import WhatsappIcon from "../components/icons/WhatsappIcon.astro";
 					<WhatsappIcon class="w-9 h-9 fill-pumpkin" />
 				</a>
 			</section>
-			<button
-				class="cursor-pointer border-obsidian border bg-pumpkin text-cream px-5 py-2 rounded-full"
-				>Consigue la tuya ahora
-			</button>
+			<Button>Consigue la tuya ahora </Button>
 		</main>
 	</section>
 	<div class="py-5 border-y mt-15.5"></div>
@@ -53,11 +54,7 @@ import WhatsappIcon from "../components/icons/WhatsappIcon.astro";
 					de la batería. Su diseño elegante y portátil está disponible
 					en una variedad de colores que se adaptan a tu estilo.
 				</p>
-				<button
-					class="bg-pumpkin block mx-auto text-cream px-5 py-2 rounded-full border border-obsidian my-3"
-				>
-					Consigue la tuya ahora
-				</button>
+				<Button class="my-3"> Consigue la tuya ahora </Button>
 			</div>
 		</section>
 	</section>
@@ -100,11 +97,9 @@ import WhatsappIcon from "../components/icons/WhatsappIcon.astro";
 						la batería. Su diseño elegante y portátil está disponible
 						en una variedad de colores que se adaptan a tu estilo.
 					</p>
-					<button
-						class="bg-pumpkin text-cream px-5 py-2 rounded-full border border-obsidian mx-auto block lg:self-center my-5"
-					>
+					<Button class="mx-auto block lg:self-center my-5">
 						Comprar ahora
-					</button>
+					</Button>
 				</div>
 
 				<div class="mt-5 md:min-w-[50dvw] self-end">
