@@ -15,9 +15,7 @@ import Button from "../components/Button.astro";
 		<main
 			class="flex flex-col justify-center items-center gap-8 border-x mx-10 h-dvh"
 		>
-			<h1
-				class="md:text-7xl text-4xl font-medium text-center w-[12ch] -mt-20"
-			>
+			<h1 class="md:text-7xl text-4xl text-center w-[12ch] -mt-20">
 				La forma
 				<span class="text-pumpkin">segura</span>
 				de conseguir tus
@@ -47,7 +45,7 @@ import Button from "../components/Button.astro";
 					Macbook <span class="text-pumpkin"> Pro</span>
 				</h1>
 				<p
-					class="text-center text-lg md:text-pretty lg:text-2xl text-obsidian font-medium"
+					class="text-center text-lg md:text-pretty lg:text-2xl text-obsidian"
 				>
 					La <span class="text-pumpkin">MacBook</span> es la laptop más
 					popular del mundo por una razón. Ofrece hasta una duración excepcional
@@ -61,12 +59,12 @@ import Button from "../components/Button.astro";
 		</section>
 	</section>
 	<div class="py-2 border-y">
-		<h1 class="text-3xl md:text-4xl font-bold text-obsidian text-center">
+		<h1 class="text-3xl md:text-4xl text-obsidian text-center">
 			Modelos <span class="text-pumpkin">Pro</span> Retina
 		</h1>
 	</div>
 	<section
-		class="mx-10 h-[400dvh] border-x md:px-0 items-center relative overflow-hidden"
+		class="mx-10 border-x md:px-0 items-center relative overflow-hidden"
 	>
 		<section class="flex flex-col items-end border-b py-5">
 			<div
@@ -88,12 +86,12 @@ import Button from "../components/Button.astro";
 			>
 				<div>
 					<h1
-						class="text-center text-2xl lg:text-4xl font-bold pt-5 pb-3 lg:pb-5"
+						class="text-center text-2xl lg:text-4xl pt-5 pb-3 lg:pb-5"
 					>
 						Hecha para <span class="text-pumpkin">multitarea</span>
 					</h1>
 					<p
-						class="text-center text-lg md:text-pretty lg:text-2xl text-obsidian font-medium px-5"
+						class="text-center text-lg md:text-pretty lg:text-2xl text-obsidian px-5"
 					>
 						La <span class="text-pumpkin">MacBook</span> es un portatil
 						excepcional para la multitarea, ofrece todo lo necesario
@@ -111,7 +109,7 @@ import Button from "../components/Button.astro";
 				</div>
 			</div>
 		</section>
-		<section class="border-b pb-5">
+		<section class="pb-5">
 			<div
 				class="w-[90%] lg:w-[30%] h-[33dvw] lg:h-auto relative flex items-center justify-center"
 			>
@@ -132,13 +130,13 @@ import Button from "../components/Button.astro";
 				</div>
 				<div class="flex items-center flex-col">
 					<h1
-						class="text-center text-2xl lg:text-4xl font-bold pb-3 lg:pb-5 pt-5"
+						class="text-center text-2xl lg:text-4xl pb-3 lg:pb-5 pt-5"
 					>
 						Perfecta <span class="text-pumpkin">Retina</span> para contenido
 						<span class="text-pumpkin">audiovisual</span>
 					</h1>
 					<p
-						class="text-center text-lg md:text-balance lg:text-2xl text-obsidian font-medium px-5"
+						class="text-center text-lg md:text-balance lg:text-2xl text-obsidian px-5"
 					>
 						Con <span class="text-pumpkin">Retina</span> Cada detalle
 						cobra vida gracias a su resolución espectacular y colores
@@ -152,5 +150,493 @@ import Button from "../components/Button.astro";
 				</div>
 			</div>
 		</section>
+	</section>
+	<div class="py-2 border-y">
+		<h1 class="text-3xl md:text-4xl text-obsidian text-center">
+			Modelos y Precios
+		</h1>
+	</div>
+	<section class="mx-10 pb-5 border-x px-10 items-center">
+		<div
+			class="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16"
+		>
+			<div
+				class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-stretch md:grid-cols-3 md:gap-8"
+			>
+				<div class="divide-y divide-black rounded-2xl border shadow-xs">
+					<div class="p-6 sm:px-8">
+						<h2 class="text-lg font-medium text-gray-900">
+							Macbook Pro 2013
+							<span class="sr-only">Plan</span>
+						</h2>
+
+						<p class="mt-2 text-gray-700">
+							Un Macbook Pro de entrada de mercado, con una
+							pantalla de 13"
+						</p>
+
+						<p class="mt-2 sm:mt-4">
+							<strong
+								class="text-3xl font-bold text-gray-900 sm:text-4xl"
+							>
+								299$
+							</strong>
+
+							<span class="text-sm font-medium text-gray-700"
+								>Con opcion a plazos</span
+							>
+						</p>
+
+						<Button class="block w-full my-2">
+							Obtener ahora
+						</Button>
+					</div>
+
+					<div class="p-6 sm:px-8">
+						<p class="text-lg font-medium text-gray-900 sm:text-xl">
+							Que incluye:
+						</p>
+
+						<ul class="mt-2 space-y-2 sm:mt-4">
+							<li class="flex items-center gap-1">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="size-5 text-pumpkin"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M4.5 12.75l6 6 9-13.5"></path>
+								</svg>
+
+								<span class="text-gray-700">
+									Intel Core i5 4ª gen, Haswell
+								</span>
+							</li>
+
+							<li class="flex items-center gap-1">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="size-5 text-pumpkin"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M4.5 12.75l6 6 9-13.5"></path>
+								</svg>
+
+								<span class="text-gray-700">
+									8 GB de RAM 1600 MHz
+								</span>
+							</li>
+
+							<li class="flex items-center gap-1">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="size-5 text-pumpkin"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M4.5 12.75l6 6 9-13.5"></path>
+								</svg>
+
+								<span class="text-gray-700">
+									Intel Iris 5100
+								</span>
+							</li>
+
+							<li class="flex items-center gap-1">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="size-5 text-pumpkin"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M4.5 12.75l6 6 9-13.5"></path>
+								</svg>
+
+								<span class="text-gray-700">
+									Almacenamiento variable
+								</span>
+							</li>
+
+							<li class="flex items-center gap-1">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="size-5 text-pumpkin"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M4.5 12.75l6 6 9-13.5"></path>
+								</svg>
+
+								<span class="text-gray-700">
+									MacOS Big Sur
+								</span>
+							</li>
+
+							<li class="flex items-center gap-1">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="size-5 text-black"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M6 18L18 6M6 6l12 12"></path>
+								</svg>
+
+								<span class="text-gray-700">
+									Protección de apple
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="divide-y divide-black rounded-2xl border shadow-xs">
+					<div class="p-6 sm:px-8">
+						<h2 class="text-lg font-medium text-gray-900">
+							Macbook Pro 2015
+							<span class="sr-only">Plan</span>
+						</h2>
+
+						<p class="mt-2 text-gray-700">
+							Un Macbook Pro con mejor desempeño y mas moderna,
+							con una pantalla de 13"
+						</p>
+
+						<p class="mt-2 sm:mt-4">
+							<strong
+								class="text-3xl font-bold text-gray-900 sm:text-4xl"
+							>
+								399$
+							</strong>
+
+							<span class="text-sm font-medium text-gray-700"
+								>Con opcion a plazos</span
+							>
+						</p>
+
+						<Button class="block w-full my-2">
+							Obtener ahora
+						</Button>
+					</div>
+
+					<div class="p-6 sm:px-8">
+						<p class="text-lg font-medium text-gray-900 sm:text-xl">
+							Que incluye:
+						</p>
+
+						<ul class="mt-2 space-y-2 sm:mt-4">
+							<li class="flex items-center gap-1">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="size-5 text-pumpkin"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M4.5 12.75l6 6 9-13.5"></path>
+								</svg>
+
+								<span class="text-gray-700">
+									Intel Core i5 5ª gen, Broadwell
+								</span>
+							</li>
+
+							<li class="flex items-center gap-1">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="size-5 text-pumpkin"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M4.5 12.75l6 6 9-13.5"></path>
+								</svg>
+
+								<span class="text-gray-700">
+									8 GB de RAM 1600 MHz
+								</span>
+							</li>
+
+							<li class="flex items-center gap-1">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="size-5 text-pumpkin"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M4.5 12.75l6 6 9-13.5"></path>
+								</svg>
+
+								<span class="text-gray-700">
+									Intel Iris Pro 5200
+								</span>
+							</li>
+
+							<li class="flex items-center gap-1">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="size-5 text-pumpkin"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M4.5 12.75l6 6 9-13.5"></path>
+								</svg>
+
+								<span class="text-gray-700">
+									Almacenamiento variable
+								</span>
+							</li>
+
+							<li class="flex items-center gap-1">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="size-5 text-pumpkin"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M4.5 12.75l6 6 9-13.5"></path>
+								</svg>
+
+								<span class="text-gray-700">
+									MacOS Monterey
+								</span>
+							</li>
+
+							<li class="flex items-center gap-1">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="size-5 text-black"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M6 18L18 6M6 6l12 12"></path>
+								</svg>
+
+								<span class="text-gray-700">
+									Protección de apple
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="divide-y divide-black rounded-2xl border shadow-xs">
+					<div class="p-6 sm:px-8">
+						<h2 class="text-lg font-medium text-gray-900">
+							Macbook Pro 2017
+							<span class="sr-only">Plan</span>
+						</h2>
+
+						<p class="mt-2 text-gray-700">
+							Un Macbook Pro de mucho mas alto rendimiento, con
+							una gran aceleracion de procesador y mejor desempeño
+						</p>
+
+						<p class="mt-2 sm:mt-4">
+							<strong
+								class="text-3xl font-bold text-gray-900 sm:text-4xl"
+							>
+								349$
+							</strong>
+
+							<span class="text-sm font-medium text-gray-700"
+								>Con opcion a plazos</span
+							>
+						</p>
+
+						<Button class="block w-full my-2">
+							Obtener ahora
+						</Button>
+					</div>
+
+					<div class="p-6 sm:px-8">
+						<p class="text-lg font-medium text-gray-900 sm:text-xl">
+							Que incluye:
+						</p>
+
+						<ul class="mt-2 space-y-2 sm:mt-4">
+							<li class="flex items-center gap-1">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="size-5 text-pumpkin"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M4.5 12.75l6 6 9-13.5"></path>
+								</svg>
+
+								<span class="text-gray-700">
+									Intel Core i5 7ª gen, Kaby Lake
+								</span>
+							</li>
+
+							<li class="flex items-center gap-1">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="size-5 text-pumpkin"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M4.5 12.75l6 6 9-13.5"></path>
+								</svg>
+
+								<span class="text-gray-700">
+									8 GB de RAM 1600 MHz
+								</span>
+							</li>
+
+							<li class="flex items-center gap-1">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="size-5 text-pumpkin"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M4.5 12.75l6 6 9-13.5"></path>
+								</svg>
+
+								<span class="text-gray-700">
+									Intel Iris Plus 640
+								</span>
+							</li>
+
+							<li class="flex items-center gap-1">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="size-5 text-pumpkin"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M4.5 12.75l6 6 9-13.5"></path>
+								</svg>
+
+								<span class="text-gray-700">
+									Almacenamiento variable
+								</span>
+							</li>
+
+							<li class="flex items-center gap-1">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="size-5 text-pumpkin"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M4.5 12.75l6 6 9-13.5"></path>
+								</svg>
+
+								<span class="text-gray-700">
+									macOS Ventura
+								</span>
+							</li>
+
+							<li class="flex items-center gap-1">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="currentColor"
+									class="size-5 text-black"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M6 18L18 6M6 6l12 12"></path>
+								</svg>
+
+								<span class="text-gray-700">
+									Protección de apple
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 </Layout>
