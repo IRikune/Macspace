@@ -1,0 +1,49 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import LaptopIcon from "../components/icons/LaptopIcon.astro";
+import Button from "../components/Button.astro";
+---
+
+<Layout>
+    <Header />
+    <main class="border-x mx-10 h-dvh flex flex-col items-center">
+        <h1 class="text-3xl text-center">
+            Escoge tu nueva <span class="text-pumpkin">Macbook Pro</span>.
+        </h1>
+        <LaptopIcon class="size-8 mx-auto" />
+        <h3 class="text-center mx-10 my-2">
+            Tienes alguna duda acerca de tus opciones?
+        </h3>
+        <Button>Chatea con nuestros expertos</Button>
+
+        <section class="mt-10 text-cream flex *:cursor-pointer">
+            <button
+                class="*:block *:mx-auto border border-obsidian rounded-l-lg p-5 bg-pumpkin outline-pumpkin outline-[1.5px]"
+            >
+                <span class="text-lg">2013</span>
+                <span>Desde $299</span>
+            </button>
+            <button
+                class="*:block *:mx-auto border border-l-0 border-obsidian rounded-r-lg p-5 bg-pumpkin"
+            >
+                <span class="text-lg">2015</span>
+                <span>Desde $349</span>
+            </button>
+        </section>
+        <section class="mt-2 text-cream flex *:cursor-pointer">
+            <button
+                class="*:block *:mx-auto border border-obsidian rounded-l-lg p-5 bg-pumpkin outline-pumpkin"
+            >
+                <span class="text-lg">2017</span>
+                <span>Desde $299</span>
+            </button>
+            <button
+                class="*:block *:mx-auto border border-l-0 border-obsidian rounded-r-lg p-5 bg-pumpkin"
+            >
+                <span class="text-lg">M1</span>
+                <span>Desde $349</span>
+            </button>
+        </section>
+    </main>
+</Layout>
