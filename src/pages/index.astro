@@ -649,15 +649,13 @@ import Button from "../components/Button.astro";
 	<section class="mx-10 border-x p-10 items-center">
 		<div class="divide-y divide-black rounded-xl border border-black">
 			<details
-				class="group p-6 [&_summary::-webkit-details-marker]:hidden"
+				class="group p-6 [&_summary::-webkit-details-marker]:hidden transition-all duration-300 h-auto transition-discrete"
 				open
 			>
 				<summary
 					class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900"
 				>
-					<h2 class="text-lg font-medium">
-						Lorem ipsum dolor sit amet consectetur adipisicing?
-					</h2>
+					<h2 class="text-lg font-medium">¿Cómo realizo el pago?</h2>
 
 					<span class="relative size-5 shrink-0">
 						<svg
@@ -691,10 +689,11 @@ import Button from "../components/Button.astro";
 				</summary>
 
 				<p class="mt-4 leading-relaxed text-gray-700">
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
-					hic veritatis molestias culpa in, recusandae laboriosam
-					neque aliquid libero nesciunt voluptate dicta quo officiis
-					explicabo consequuntur distinctio corporis earum similique!
+					Aceptamos múltiples métodos de pago: transferencias en USD
+					(plataformas como Zelle o Zinli), bolívares (a tasa de
+					cambio actualizada), y criptomonedas (Bitcoin, USDT, etc.).
+					Todos los pagos son seguros y se confirman antes de procesar
+					tu pedido.
 				</p>
 			</details>
 
@@ -705,7 +704,7 @@ import Button from "../components/Button.astro";
 					class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900"
 				>
 					<h2 class="text-lg font-medium">
-						Lorem ipsum dolor sit amet consectetur adipisicing?
+						¿Cuánto tarda en llegar mi MacBook?
 					</h2>
 
 					<span class="relative size-5 shrink-0">
@@ -740,10 +739,198 @@ import Button from "../components/Button.astro";
 				</summary>
 
 				<p class="mt-4 leading-relaxed text-gray-700">
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
-					hic veritatis molestias culpa in, recusandae laboriosam
-					neque aliquid libero nesciunt voluptate dicta quo officiis
-					explicabo consequuntur distinctio corporis earum similique!
+					El tiempo de entrega varía entre 7 a 21 días hábiles,
+					dependiendo de la disponibilidad del modelo y los trámites
+					aduaneros. Trabajamos con envíos prioritarios para minimizar
+					demoras.
+				</p>
+			</details>
+			<details
+				class="group p-6 [&_summary::-webkit-details-marker]:hidden"
+			>
+				<summary
+					class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900"
+				>
+					<h2 class="text-lg font-medium">
+						¿Puedo personalizar mi MacBook (más RAM, almacenamiento,
+						etc.)?
+					</h2>
+
+					<span class="relative size-5 shrink-0">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="absolute inset-0 size-5 opacity-100 group-open:opacity-0 fill-pumpkin"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							stroke-width="2"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+							></path>
+						</svg>
+
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="absolute inset-0 size-5 opacity-0 group-open:opacity-100 fill-pumpkin"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							stroke-width="2"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+							></path>
+						</svg>
+					</span>
+				</summary>
+
+				<p class="mt-4 leading-relaxed text-gray-700">
+					Sí, ofrecemos opciones de personalización (memoria,
+					almacenamiento, etc.) para modelos seleccionados. Escríbenos
+					antes de comprar para confirmar disponibilidad.
+				</p>
+			</details>
+			<details
+				class="group p-6 [&_summary::-webkit-details-marker]:hidden"
+			>
+				<summary
+					class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900"
+				>
+					<h2 class="text-lg font-medium">
+						¿Hacen envíos a todo Venezuela?
+					</h2>
+
+					<span class="relative size-5 shrink-0">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="absolute inset-0 size-5 opacity-100 group-open:opacity-0 fill-pumpkin"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							stroke-width="2"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+							></path>
+						</svg>
+
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="absolute inset-0 size-5 opacity-0 group-open:opacity-100 fill-pumpkin"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							stroke-width="2"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+							></path>
+						</svg>
+					</span>
+				</summary>
+
+				<p class="mt-4 leading-relaxed text-gray-700">
+					Sí, entregamos a cualquier estado del país a través de
+					empresas de envío confiables. El costo de envío está
+					incluido en el precio final.
+				</p>
+			</details>
+			<details
+				class="group p-6 [&_summary::-webkit-details-marker]:hidden"
+			>
+				<summary
+					class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900"
+				>
+					<h2 class="text-lg font-medium">
+						¿Los MacBooks son nuevos y originales?
+					</h2>
+
+					<span class="relative size-5 shrink-0">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="absolute inset-0 size-5 opacity-100 group-open:opacity-0 fill-pumpkin"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							stroke-width="2"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+							></path>
+						</svg>
+
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="absolute inset-0 size-5 opacity-0 group-open:opacity-100 fill-pumpkin"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							stroke-width="2"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+							></path>
+						</svg>
+					</span>
+				</summary>
+
+				<p class="mt-4 leading-relaxed text-gray-700">
+					Todos nuestros equipos son 100% originales, trabajamos con
+					productos usados o refurbished en excelentes condiciones.
+				</p>
+			</details>
+			<details
+				class="group p-6 [&_summary::-webkit-details-marker]:hidden"
+			>
+				<summary
+					class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900"
+				>
+					<h2 class="text-lg font-medium">
+						¿Por que el precio de mi MacBook es tan bajo?
+					</h2>
+
+					<span class="relative size-5 shrink-0">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="absolute inset-0 size-5 opacity-100 group-open:opacity-0 fill-pumpkin"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							stroke-width="2"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+							></path>
+						</svg>
+
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="absolute inset-0 size-5 opacity-0 group-open:opacity-100 fill-pumpkin"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							stroke-width="2"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+							></path>
+						</svg>
+					</span>
+				</summary>
+
+				<p class="mt-4 leading-relaxed text-gray-700">
+					Nuestros equipos provienen de personas de todo el mundo, que
+					apuntaron a diferentes equipos y modelos, por tanto, el
+					precio es mucho mas accesible.
 				</p>
 			</details>
 		</div>
