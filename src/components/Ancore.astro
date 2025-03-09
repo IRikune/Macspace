@@ -1,0 +1,10 @@
+---
+const { to, class: className } = Astro.props;
+---
+
+<a
+    href={to}
+    class={`block w-fit bg-pumpkin text-center text-cream px-5 py-2 rounded-full border border-obsidian cursor-pointer hover:saturate-150 hover:scale-102 transition duration-300 ${className}`}
+>
+    <slot />
+</a>
