@@ -14,6 +14,9 @@ importers:
       '@fontsource-variable/manrope':
         specifier: ^5.2.5
         version: 5.2.5
+      '@preact/signals':
+        specifier: ^2.0.1
+        version: 2.0.1(preact@10.26.4)
       '@tailwindcss/vite':
         specifier: ^4.0.10
         version: 4.0.10(vite@6.2.0(jiti@2.4.2)(lightningcss@1.29.1))
