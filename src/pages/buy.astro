@@ -3,11 +3,12 @@ import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import LaptopIcon from "../components/icons/LaptopIcon.astro";
 import Button from "../components/Button.astro";
+import { Products } from "../components/preact/Products";
 ---
 
 <Layout>
     <Header />
-    <main class="border-x mx-10 h-dvh flex flex-col items-center">
+    <header class="border-x mx-10 h-dvh flex flex-col items-center">
         <h1 class="text-3xl text-center">
             Escoge tu nueva <span class="text-pumpkin">Macbook Pro</span>.
         </h1>
@@ -45,5 +46,8 @@ import Button from "../components/Button.astro";
                 <span>Desde $349</span>
             </button>
         </section>
+    </header>
+    <main>
+        <Products />
     </main>
 </Layout>
