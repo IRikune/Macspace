@@ -3,5 +3,19 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-    <h1>Dashboard</h1>
+    <section class="h-dvh w-dvw overflow-hidden flex relative">
+        <footer class="w-dvw fixed bottom-0 left-0 h-16 bg-pumpkin sm:hidden">
+        </footer>
+
+        <aside class="w-1/4 h-dvh border-r border-obsidian hidden sm:block">
+        </aside>
+        <main class="w-full overflow-scroll">
+            <h1 class="text-8xl">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae rerum molestias doloribus at in voluptatum totam quis
+                consequuntur? Commodi ex placeat iste, eveniet eius voluptas
+                voluptates dolores adipisci nihil similique?
+            </h1>
+        </main>
+    </section>
 </Layout>
