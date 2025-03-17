@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "tailwindcss-intersect";
 
 @theme {
     --color-cream: #f2ede2;

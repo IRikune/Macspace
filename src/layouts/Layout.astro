@@ -13,6 +13,10 @@ import "../styles/global.css";
 		<title>Macspace</title>
 	</head>
 	<body class="bg-cream">
+		<script>
+			import { Observer } from "tailwindcss-intersect";
+			Observer.start();
+		</script>
 		<slot />
 	</body>
 </html>
