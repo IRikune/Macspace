@@ -16,7 +16,9 @@ import Footer from "../components/Footer.astro";
 		<main
 			class="flex flex-col justify-center items-center gap-8 border-x mx-10 h-dvh"
 		>
-			<h1 class="md:text-7xl text-4xl text-center w-[12ch] -mt-20">
+			<h1
+				class="md:text-7xl text-4xl text-center w-[12ch] -mt-20 intersect:motion-preset-rebound-up"
+			>
 				La forma
 				<span class="text-pumpkin">segura</span>
 				de conseguir tus
@@ -30,7 +32,11 @@ import Footer from "../components/Footer.astro";
 					<WhatsappIcon class="w-9 h-9 fill-pumpkin" />
 				</a>
 			</section>
-			<Ancore to="/buy">Consigue la tuya ahora </Ancore>
+			<Ancore
+				class="intersect:motion-preset-rebound-up motion-delay-500"
+				to="/buy"
+				>Consigue la tuya ahora
+			</Ancore>
 		</main>
 	</section>
 	<div class="py-5 border-y mt-15.5"></div>
@@ -38,10 +44,14 @@ import Footer from "../components/Footer.astro";
 		<section
 			class="flex justify-center items-center flex-col sm:flex-row lg:px-25"
 		>
-			<div class="sm:px-0 px-10 min-w-xs md:min-w-sm">
+			<div
+				class="sm:px-0 px-10 min-w-xs md:min-w-sm intersect:motion-preset-slide-right motion-ease-spring-bouncier motion-duration-800"
+			>
 				<img src="/images/hero.webp" alt="Macbook Pro" />
 			</div>
-			<div>
+			<div
+				class="intersect:motion-preset-slide-left motion-ease-spring-bouncier motion-duration-800"
+			>
 				<h1 class="text-4xl text-center font-semibold py-5">
 					Macbook <span class="text-pumpkin"> Pro</span>
 				</h1>
@@ -60,7 +70,9 @@ import Footer from "../components/Footer.astro";
 		</section>
 	</section>
 	<div class="py-2 border-y">
-		<h1 class="text-3xl md:text-4xl text-obsidian text-center">
+		<h1
+			class="text-3xl md:text-4xl text-obsidian text-center intersect:motion-preset-shrink motion-delay-200 motion-duration-500"
+		>
 			Modelos <span class="text-pumpkin">Pro</span> Retina
 		</h1>
 	</div>
@@ -77,7 +89,7 @@ import Footer from "../components/Footer.astro";
 					alt=""
 				/>
 				<h2
-					class="text-6xl font-bold -mt-10 text-center lg:text-8xl lg:mt-5"
+					class="text-6xl font-bold -mt-10 text-center lg:text-8xl lg:mt-5 intersect:motion-preset-slide-left motion-ease-bounce"
 				>
 					2013
 				</h2>
@@ -85,7 +97,9 @@ import Footer from "../components/Footer.astro";
 			<div
 				class="flex items-center md:flex-row flex-col-reverse pt-[2dvw]"
 			>
-				<div>
+				<div
+					class="intersect:motion-preset-slide-right motion-ease-spring-bouncier motion-duration-800"
+				>
 					<h1
 						class="text-center text-2xl lg:text-4xl pt-5 pb-3 lg:pb-5"
 					>
@@ -105,7 +119,9 @@ import Footer from "../components/Footer.astro";
 					</Ancore>
 				</div>
 
-				<div class="mt-5 md:min-w-[50dvw] self-end">
+				<div
+					class="mt-5 md:min-w-[50dvw] self-end intersect:motion-preset-slide-left motion-ease-spring-bouncier motion-duration-800"
+				>
 					<img src="/images/macbookborderless.webp" alt="" />
 				</div>
 			</div>
@@ -119,17 +135,23 @@ import Footer from "../components/Footer.astro";
 					src="/images/shapeBG.webp"
 					alt=""
 				/>
-				<h2 class="text-6xl font-bold text-center lg:text-8xl lg:mt-8">
+				<h2
+					class="text-6xl font-bold text-center lg:text-8xl lg:mt-8 intersect:motion-preset-slide-left motion-ease-bounce"
+				>
 					2015
 				</h2>
 			</div>
 			<div
 				class="flex items-center md:flex-row flex-col lg:pt-[5dvw] pt-[10dvw]"
 			>
-				<div class="md:min-w-[50dvw] self-end">
+				<div
+					class="md:min-w-[50dvw] self-end intersect:motion-preset-slide-right motion-ease-spring-bouncier motion-duration-800"
+				>
 					<img src="/images/netflix.webp" alt="Netflix background" />
 				</div>
-				<div class="flex items-center flex-col">
+				<div
+					class="flex items-center flex-col intersect:motion-preset-slide-left motion-ease-spring-bouncier motion-duration-800"
+				>
 					<h1
 						class="text-center text-2xl lg:text-4xl pb-3 lg:pb-5 pt-5"
 					>
@@ -153,7 +175,9 @@ import Footer from "../components/Footer.astro";
 		</section>
 	</section>
 	<div class="py-2 border-y">
-		<h1 class="text-3xl md:text-4xl text-obsidian text-center">
+		<h1
+			class="text-3xl md:text-4xl text-obsidian text-center intersect:motion-preset-shrink motion-delay-200 motion-duration-500"
+		>
 			Modelos y Precios
 		</h1>
 	</div>
@@ -164,7 +188,9 @@ import Footer from "../components/Footer.astro";
 			<div
 				class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-stretch md:grid-cols-3 md:gap-8"
 			>
-				<div class="divide-y divide-black rounded-2xl border shadow-xs">
+				<article
+					class="divide-y divide-black rounded-2xl border shadow-xs intersect:motion-preset-slide-down motion-ease-in-out-quart intersect-once"
+				>
 					<div class="p-6 sm:px-8">
 						<h2 class="text-lg font-medium text-gray-900">
 							Macbook Pro 2013
@@ -320,9 +346,11 @@ import Footer from "../components/Footer.astro";
 							</li>
 						</ul>
 					</div>
-				</div>
+				</article>
 
-				<div class="divide-y divide-black rounded-2xl border shadow-xs">
+				<article
+					class="divide-y divide-black rounded-2xl border shadow-xs intersect:motion-preset-slide-down motion-ease-in-out-quart motion-delay-500 intersect-once"
+				>
 					<div class="p-6 sm:px-8">
 						<h2 class="text-lg font-medium text-gray-900">
 							Macbook Pro 2015
@@ -478,9 +506,11 @@ import Footer from "../components/Footer.astro";
 							</li>
 						</ul>
 					</div>
-				</div>
+				</article>
 
-				<div class="divide-y divide-black rounded-2xl border shadow-xs">
+				<article
+					class="divide-y divide-black rounded-2xl border shadow-xs intersect:motion-preset-slide-down motion-ease-in-out-quart motion-delay-1000 intersect-once"
+				>
 					<div class="p-6 sm:px-8">
 						<h2 class="text-lg font-medium text-gray-900">
 							Macbook Pro 2017
@@ -636,19 +666,23 @@ import Footer from "../components/Footer.astro";
 							</li>
 						</ul>
 					</div>
-				</div>
+				</article>
 			</div>
 		</div>
 	</section>
 
 	<div class="py-2 border-y">
-		<h1 class="text-3xl md:text-4xl text-obsidian text-center">
+		<h1
+			class="text-3xl md:text-4xl text-obsidian text-center intersect:motion-preset-shrink motion-delay-200 motion-duration-500"
+		>
 			Preguntas Frecuentes
 		</h1>
 	</div>
 
 	<section class="mx-10 border-x p-10 items-center">
-		<div class="divide-y divide-black rounded-xl border border-black">
+		<div
+			class="divide-y divide-black rounded-xl border border-black intersect:*:motion-preset-slide-left motion-ease-in-out-quart"
+		>
 			<details
 				class="group p-6 [&_summary::-webkit-details-marker]:hidden transition-all duration-300 h-auto transition-discrete"
 				open
@@ -699,7 +733,7 @@ import Footer from "../components/Footer.astro";
 			</details>
 
 			<details
-				class="group p-6 [&_summary::-webkit-details-marker]:hidden"
+				class="group p-6 [&_summary::-webkit-details-marker]:hidden motion-delay-200"
 			>
 				<summary
 					class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900"
@@ -747,7 +781,7 @@ import Footer from "../components/Footer.astro";
 				</p>
 			</details>
 			<details
-				class="group p-6 [&_summary::-webkit-details-marker]:hidden"
+				class="group p-6 [&_summary::-webkit-details-marker]:hidden motion-delay-400"
 			>
 				<summary
 					class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900"
@@ -795,7 +829,7 @@ import Footer from "../components/Footer.astro";
 				</p>
 			</details>
 			<details
-				class="group p-6 [&_summary::-webkit-details-marker]:hidden"
+				class="group p-6 [&_summary::-webkit-details-marker]:hidden motion-delay-600"
 			>
 				<summary
 					class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900"
@@ -842,7 +876,7 @@ import Footer from "../components/Footer.astro";
 				</p>
 			</details>
 			<details
-				class="group p-6 [&_summary::-webkit-details-marker]:hidden"
+				class="group p-6 [&_summary::-webkit-details-marker]:hidden motion-delay-800"
 			>
 				<summary
 					class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900"
@@ -888,7 +922,7 @@ import Footer from "../components/Footer.astro";
 				</p>
 			</details>
 			<details
-				class="group p-6 [&_summary::-webkit-details-marker]:hidden"
+				class="group p-6 [&_summary::-webkit-details-marker]:hidden motion-delay-1000"
 			>
 				<summary
 					class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900"

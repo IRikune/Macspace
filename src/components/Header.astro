@@ -2,10 +2,11 @@
 import Logo from "./Logo.astro";
 import InstagramIcon from "./icons/InstagramIcon.astro";
 import WhatsappIcon from "./icons/WhatsappIcon.astro";
+const { class: className } = Astro.props;
 ---
 
 <header
-    class="flex items-center justify-between mx-10 md:px-10 px-2 border-x pt-5"
+    class={`flex items-center justify-between mx-10 md:px-10 px-2 border-x pt-5 ${className} *:intersect:motion-preset-fade`}
 >
     <a href="/">
         <Logo />
